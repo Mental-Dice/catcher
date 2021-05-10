@@ -19,9 +19,8 @@ dependencies:
   package_info_plus: ^1.0.0
   mailer: ^5.0.0
   dio: ^4.0.0
-  flutter_mailer: ^2.0.0-null-safe
+  flutter_mailer: ^1.0.1
   logging: ^1.0.1
-  sentry: ^5.0.0
   universal_io: ^2.0.4
 
 dev_dependencies:

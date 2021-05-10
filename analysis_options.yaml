@@ -2,7 +2,7 @@
 
 analyzer:
   strong-mode:
-    implicit-dynamic: false
+    implicit-dynamic: true
 
 linter:
   rules:

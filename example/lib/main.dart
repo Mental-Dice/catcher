@@ -1,6 +1,5 @@
 import 'package:catcher/catcher.dart';
 import 'package:flutter/material.dart';
-import 'package:sentry/sentry.dart';
 
 void main() {
   ///Configure your debug options (settings used in development mode)
@@ -24,11 +23,6 @@ void main() {
     PageReportMode(),
     [
       ///Send logs to Sentry
-      SentryHandler(
-        SentryClient(
-          SentryOptions(dsn: "<DSN>"),
-        ),
-      ),
 
       ///Print logs in console
       ConsoleHandler(),
