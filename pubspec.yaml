@@ -24,7 +24,7 @@ dependencies:
   universal_io: ^2.0.4
 
 dev_dependencies:
-  lint: ^1.5.3
+  lint: ^2.0.20
 
 flutter:
   plugin:

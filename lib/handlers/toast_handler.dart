@@ -134,7 +134,7 @@ class _FlutterToastPageState extends State<FlutterToastPage> {
   @override
   void initState() {
     fToast.init(context);
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       showToast();
     });
     super.initState();

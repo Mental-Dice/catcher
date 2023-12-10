@@ -19,7 +19,7 @@ import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
-class Catcher with ReportModeAction {
+class Catcher extends ReportModeAction {
   static late Catcher _instance;
   static GlobalKey<NavigatorState>? _navigatorKey;
 
@@ -349,7 +349,7 @@ class Catcher with ReportModeAction {
   void _loadAndroidParameters(AndroidDeviceInfo androidDeviceInfo) {
     try {
       _deviceParameters["id"] = androidDeviceInfo.id;
-      _deviceParameters["androidId"] = androidDeviceInfo.androidId;
+      // _deviceParameters["androidId"] = androidDeviceInfo.androidId;
       _deviceParameters["board"] = androidDeviceInfo.board;
       _deviceParameters["bootloader"] = androidDeviceInfo.bootloader;
       _deviceParameters["brand"] = androidDeviceInfo.brand;
